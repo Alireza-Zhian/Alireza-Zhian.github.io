@@ -1,7 +1,114 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shahab Booya</title>
+  <meta name="description" content="Academic website of Shahab Booya, MSc student in Computer Science at Ferdowsi University of Mashhad." />
+  <link rel="stylesheet" href="style.css" />
+</head>
 <body>
-  <h1>Hello World!</h1>
-  <p>This is my new website hosted on GitHub Pages.</p>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div>
+        <h1>Shahab Booya</h1>
+        <p class="subtitle">MSc Student in Computer Science</p>
+        <p class="subtitle">Ferdowsi University of Mashhad</p>
+      </div>
+      <nav aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#research">Research</a>
+        <a href="#projects">Projects</a>
+        <a href="#cv">CV</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="about" class="section about">
+      <img src="profile.jpg" alt="Portrait of Shahab Booya" class="profile-photo" />
+      <div>
+        <h2>About</h2>
+        <p>
+          I am an MSc student in Computer Science at
+          <strong>Ferdowsi University of Mashhad (FUM)</strong>.
+          I completed my BSc in Computer Science at FUM.
+        </p>
+        <p>
+          My research interests include
+          <strong>[replace with your research interests]</strong>.
+          <!-- Optional: include only if you want it public.
+          I was born on 19 June 2003.
+          -->
+        </p>
+        <p>
+          You can reach me at
+          <a href="mailto:your-email@example.com">your-email@example.com</a>.
+        </p>
+      </div>
+    </section>
+
+    <section id="education" class="section">
+      <h2>Education</h2>
+      <div class="item">
+        <h3>MSc in Computer Science</h3>
+        <p class="meta">Ferdowsi University of Mashhad · In progress</p>
+        <p>Research topic: <em>[replace with your MSc research topic]</em></p>
+      </div>
+      <div class="item">
+        <h3>BSc in Computer Science</h3>
+        <p class="meta">Ferdowsi University of Mashhad</p>
+        <p>BSc thesis: <em>[replace with thesis title, if you want to list it]</em></p>
+      </div>
+    </section>
+
+    <section id="research" class="section">
+      <h2>Research Interests</h2>
+      <ul>
+        <li>[Research interest 1]</li>
+        <li>[Research interest 2]</li>
+        <li>[Research interest 3]</li>
+      </ul>
+    </section>
+
+    <section id="projects" class="section">
+      <h2>Selected Projects</h2>
+      <div class="item">
+        <h3>[Project title]</h3>
+        <p>[One or two sentences describing the project.]</p>
+        <p><a href="#">Project link</a></p>
+      </div>
+      <div class="item">
+        <h3>[Project title]</h3>
+        <p>[One or two sentences describing the project.]</p>
+        <p><a href="#">Project link</a></p>
+      </div>
+    </section>
+
+    <section id="cv" class="section">
+      <h2>CV</h2>
+      <p>
+        <a class="button" href="cv.pdf">Download my CV (PDF)</a>
+      </p>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+      <p>
+        GitHub: <a href="https://github.com/your-username">github.com/your-username</a><br />
+        Google Scholar: <a href="#">[add your Scholar profile]</a><br />
+        LinkedIn: <a href="#">[add your LinkedIn profile]</a>
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2026 Shahab Booya. Last updated: [Month Year].</p>
+    </div>
+  </footer>
 </body>
 </html>
